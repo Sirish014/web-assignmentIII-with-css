@@ -1,0 +1,100 @@
+
+header{
+ background-color: #333;
+ color: white;
+ text-align: center;
+ padding: 40px 0;
+ margin-bottom: 20px;
+}
+header h1{
+ font-size: 27.5px;
+ margin: 0;
+ font-weight: bold;
+}
+header p{
+ font-size: 18px;
+ margin-top: 10px;
+ font-style: italic;
+ color: pink;
+}
+nav {
+ background-color: #333;
+ padding: 15px ;
+}
+nav ul{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+}
+nav ul li{
+ display: inline-block;
+ margin-right: 20px;
+}
+nav ul li a {
+ color: white;
+ text-decoration: none;
+ font-size: 20px;
+ padding: 10px 15px;
+ border-radius: 5px;
+}
+nav ul li a:hover{
+ background-color: rgb(66, 66, 124);
+ color: black;
+}
+table{
+ width: 90%;
+ margin: auto;
+ border-collapse: collapse;
+ background-color: white;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ overflow: hidden;
+}
+table td {
+ vertical-align: top;
+ padding: 15px;
+ border: 1px solid black;
+}
+table td img{
+ width: 100%;
+ padding-left: auto;
+ height: auto;
+ border-radius: 8px;
+ margin-bottom: 15px;
+}
+table td ol{
+ margin: 10px 0;
+ padding-left: 20px;
+ list-style-type: disc;
+ color: #333;
+}
+table td ol li{
+ margin: 10px 0;
+ line-height: 18px;
+}
+@media(max-width:768px){
+table td{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+table td img{
+ max-width: 250px;
+}
+}
+@media(max-width: 480){
+ table{
+     width: 100%;
+ }
+ table td, table th{
+     font-size:12px;
+     padding: 8px;
+ }
+ table td img{
+     max-width: 200px;
+ }
+ table td ol li{
+     font-size: 12px;
+ }
+}

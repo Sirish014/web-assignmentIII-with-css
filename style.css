@@ -1,0 +1,104 @@
+
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+header h1{
+    font-size: 27.5px;
+    margin: 0;
+    font-weight: bold;
+}
+header p{
+    font-size: 18px;
+    margin-top: 10px;
+    font-style: italic;
+    color: pink;
+}
+nav {
+    background-color: #333;
+    padding: 15px ;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: rgb(66, 66, 124);
+    color: black;
+}
+section{
+    background-color: white;
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+section h3{
+    font-size: 17.5px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section h5{
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+section img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto  ;
+}
+section p{
+    font-size: 16px;
+    line-height: 17px;
+    color: #2d2b2b;
+    margin-top: 20px;
+    font-family: "Arial", sans-serif;
+}
+@media screen and (max-width: 480px) {
+header h1 {
+font-size: 2em;
+}
+
+header p {
+font-size: 1.1em;
+}
+
+nav ul li {
+display: block;
+margin-bottom: 10px;
+}
+
+section h3 {
+font-size: 1.8em;
+}
+
+section h5 {
+font-size: 1.2em;
+}
+
+section p {
+font-size: 1em;
+}
+}
+
